@@ -1,0 +1,82 @@
+@media screen and (max-width:630px) {
+
+    .navmenu ul li ul li {
+      font-size: 10px;
+    }
+    
+    .continentes {
+      height:40px;
+    }
+    
+    .continentes h1 {
+      font-size: 100%;
+    }
+    
+    
+    
+    .box {
+      margin-top: 10px; 
+      height: 1360px;
+      width: 100%;
+    }
+    
+    .quadradinho {
+      margin-left: 2.5%;
+      height: 690px;
+      width: 90%;
+      margin-top: 2px;
+    }
+    
+    .quadradinho p {
+      text-align: center;
+      font-size: 30px;
+      font-family: Impact, fantasy;
+      color: white;
+    }
+    
+    .RioIMG {
+      margin-left: 2%;
+      width:99%;
+      height: 230px;
+      border-radius: 30px;
+    }
+    
+    .text {
+      margin: auto;
+      margin-top: 10px;
+      height: 150px;
+      width: 90%;
+    }
+    
+    .text h2 {
+      text-align: center;
+      color: white;
+      font-family: Impact, fantasy;
+      font-weight: 200;
+    }
+    
+    .text p {
+      text-align: center;
+      font-size: 20px;
+    }
+    
+    .text h4{
+      text-decoration: none;
+      font-family: Impact, fantasy;
+      text-align: center;
+      margin-top: 0px;
+      font-size: 30px;
+      font-weight: 200;
+    }
+    
+    .fotos .banner img{
+      width: 19.8%;
+    
+    }
+    
+    .seta {
+      display: none;
+    }
+      
+    }
+    

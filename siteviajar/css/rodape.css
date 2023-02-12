@@ -1,0 +1,20 @@
+.sobre_conteudo{
+    width: 100%;
+    margin: auto;
+    background:linear-gradient( #80400B,#c05d0c)
+  }
+  .sobre_conteudo h2{
+    border-bottom-style: solid;
+    border-color: white;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+  }
+  .sobre_conteudo p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>VIA.JAR/Carrinho</title>
+    <link href="css/style1.css" rel="stylesheet" type="text/css">
+    <link href="css/responsivo1.css" rel="stylesheet" type="text/css">
+ </head>
+
+<body>
+  
+  
+  <!-- Topo -->
+  <div id="topo" class="barra">
+  
+    <div class="barraRelative">
+    
+      <div class="logo"><a href="SiteViagensOt.html"><img src="./title/logoViajar.jpeg" width="170px" height="90px"></a></div>
+    
+      <div class="viajar"><a href="SiteViagensOt.html"><img src="./title/Via.png" width="80%" height="92px"></a></div>
+  </div>
+  </div>
+  <!--Final do topo-->
+
+
+  <!--Form-->
+  <div id="form" class="form">
+    <div id="titulo" class="titulo">Programe Já Sua Viagem!</div>
+    <form method="post">
+      <label>Nome: <input class="nome" id="nome" type="text" maxlength="50"></label><br>
+      <label>Email: <input class="email" id="email" type="email"></label><br>
+      <label id="sexo">Masculino <input class="sexo" type="checkbox"></label>
+      <label id="sexo">Feminino <input class="sexo" type="checkbox"></label><br>
+      <label id="idade">Idade: <input class="idade" type="number"></label><br><br>
+      <label for="continentes" id="labelContinentes"> Continente: 
+        <select id="continentes" class="continentes" onchange="(atualizarSelector())">
+          <option value="america">América</option>
+           <option value="europa">Europa</option>
+           <option value="asia">Ásia</option>
+           <option value="africa">África</option>
+      </select></label><br>
+
+      <label for="cidade" id="labelCidades">Cidade: 
+        <select id="cidades" class="cidades">
+          <option id="cidade1" value="cidade1"></option>
+          <option id="cidade2" value="cidade2"></option>
+        </select><br>
+
+        <input type="button" value="Confirmar Cidade" class="confirmar" onclick="(confirmarCidade())">        
+      </label>
+      <br><br>
+      
+      <div id="nomeCidade"></div>
+      <img id="imagemCidade" class="imagemCidade" src="">
+      
+      
+    </form>
+
+    <form id="form1" class="form1">
+
+    <div id="preçoPassagem" class="preçoPassagem">Preço da passagem:</div>
+      
+    <div id="preços" class="preços">Preço da diária:</div>
+      
+     <div id="datas" class="datas">  
+       
+    <label for="txData">Data de ida:</label>      
+    <input type="date" id="txData" class="data"><br>
+       
+   <label for="txDatavolta">Data de volta:</label>
+    <input type="date" id="txDatavolta" class="data"> <br>
+
+    <label for="quantidadeDias">Dias de hospedagem:</label>
+       <input type="number" id="quantidadeDias" class="data"> <br>
+       
+       <label for="passagens">N° de Passagens:</label>
+       <input type="number" class="passagens" id="passagens"><br>   
+     </div>
+      
+     <div id="passagem" class="passagem">
+     <input type="button" class="confirmar" value="Calcular total" onclick="(calcularPassagem())">
+
+
+       <div id="resultado" class="resultado">
+       <div id="proprietario" class="proprietario">Proprietário das passagens:</div>
+       <div id="emailContato" class="emailContato">Email para contato:</div>
+       <div id="dataDeIda" class="dataDeIda">Data de ida:</div>
+       <div id="datadeVolta" class="datadeVolta">Data de volta:</div>
+       <div id="quantidadeDePassagens" class="quantidadeDePassagens">Quantidade de passagens:</div>
+       <div id="diasDeHospedagem" class="diasDeHospedagem">Dias de hospedagem:</div>
+         <div id="local" class="local">Local:</div>
+         <div id="imagemPNG"><img class="imagemPNG" src="./img/01.png"></div>
+       <div id="valorTotal" class="valorTotal">Valor total da(s) passagens:</div>
+       
+       
+       
+       </div>
+
+       
+     </div> 
+
+      
+    </form>
+  <div class="positionConfirmarCompra">
+  <a href="Sucesso.html"> <input id="boxConfirmarCompra" type="button" class="confirmarCompra" value="Confirmar Compra"></a>
+  </div>
+  </div>
+  <!--Form-->
+ 
+  <script src="script.js"></script>
+
+
+</body></html>
